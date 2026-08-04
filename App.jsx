@@ -1,8 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, SafeAreaView, Text, View } from 'react-native';
-import Chat from './components/Chats/Chat';
-import Updates from './components/Updates/Updates';
-import MyTabs from './components/Tabs';
+import Chat from './components/chats/Chat.jsx';
+import Updates from './components/Updates/Updates.jsx';
+import MyTabs from './components/Tabs.jsx';
+
 
 import { NavigationContainer } from '@react-navigation/native';
 
